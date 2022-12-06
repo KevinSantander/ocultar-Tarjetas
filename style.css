@@ -1,0 +1,56 @@
+body {
+  background-color: brown;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction:column;
+  background-color: rgba(183, 186, 75, 0.826);
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 3vh 25vw 3vh 25vw;
+}
+
+.tarjeta {
+  width: 20rem;
+  background-color: royalblue;
+  text-align: center;
+  margin: 3vh auto 3vh auto ;
+}
+
+.tarjeta-titulo {
+  background-color: royalblue;
+  text-transform: uppercase;
+}
+
+#btnCrear {
+  border-radius: 0.9vw;
+  background-color: rebeccapurple;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 4vw;
+}
+
+#btnCrear:hover{
+  background-color: red;
+}
+input, textarea {
+  width: 90%;
+}
+.tarjetas {
+  display: flex;
+  flex-flow: row wrap;
+}
+.ocultar {
+  display: none;
+}
+
+
+
