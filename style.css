@@ -1,14 +1,17 @@
 body {
+  margin: 100%;
   background-color: brown;
   font-family: 'Courier New', Courier, monospace;
+  
 }
 
 .contenedor {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction:column;
-  background-color: rgba(183, 186, 75, 0.826);
+  background-color: cornflowerblue;
+  margin: 10px;
 }
 
 form {
@@ -16,33 +19,36 @@ form {
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 3vh 25vw 3vh 25vw;
+  background-color: brown;
 }
 
 .tarjeta {
   width: 20rem;
-  background-color: royalblue;
+  background-color: rgba(0, 0, 255, 0.362);
   text-align: center;
   margin: 3vh auto 3vh auto ;
 }
 
 .tarjeta-titulo {
-  background-color: royalblue;
-  text-transform: uppercase;
+  background-color: black;
+  margin: 10px;
+  border-radius: 20px;
 }
 
 #btnCrear {
-  border-radius: 0.9vw;
-  background-color: rebeccapurple;
-  font-weight: 600;
+  border-radius: 4vw;
+  background-color: rgba(0, 255, 255, 0.511);
+  font-weight: 400;
   text-transform: uppercase;
-  font-size: 4vw;
+  font-size: 2vw;
+  
 }
 
-#btnCrear:hover{
-  background-color: red;
+#btnCrear:hover {
+  background-color: rgba(255, 0, 0, 0.422);
 }
 input, textarea {
-  width: 90%;
+  width: 85%;
 }
 .tarjetas {
   display: flex;
@@ -52,5 +58,11 @@ input, textarea {
   display: none;
 }
 
+#mostrarTarjetaBtn {
+  margin: 5vh;
+  border-radius: 2vw;
+  
+  background-color: darkgoldenrod;
+}
 
 
